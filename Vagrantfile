@@ -10,7 +10,7 @@
 
 ANSIBLE_PLAYBOOK = ENV['ANSIBLE_PLAYBOOK'] || "site.yml"
 BOX_MEM = ENV['BOX_MEM'] || "1024"
-BOX_NAME =  ENV['BOX_NAME'] || "ubuntu/trusty64"
+BOX_NAME =  ENV['BOX_NAME'] || "debian/stretch64"
 CLUSTER_HOSTS = ENV['CLUSTER_HOSTS'] || "vagrant_hosts"
 CONSUL_ACL_ENABLE = ENV['CONSUL_ACL_ENABLE'] || "false"
 CONSUL_ATLAS_ENABLE = ENV['CONSUL_ATLAS_ENABLE'] || "false"
